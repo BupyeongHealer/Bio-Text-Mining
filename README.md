@@ -67,7 +67,6 @@ print('Download abstracts...')
 
 Entrez.email = 'tkddudwhswk@naver.com'
 
-# noinspection PyInterpreter
 handle = Entrez.esearch(db='pubmed', term=disease, retmax=10000)
 record = Entrez.read(handle)
 
